@@ -270,11 +270,6 @@
     <ResourceCompile Include="ThemeTool.rc" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\bin\Release\ARM64\SecureUxTheme.dll" />
-    <None Include="..\bin\Release\Win32\SecureUxTheme.dll" />
-    <None Include="..\bin\Release\x64\SecureUxTheme.dll" />
-  </ItemGroup>
-  <ItemGroup>
     <Image Include="icon.ico" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
